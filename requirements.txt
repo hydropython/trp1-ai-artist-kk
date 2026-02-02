@@ -1,0 +1,6 @@
+uv-cli
+requests
+ffmpeg-python
+python-dotenv
+numpy
+Pillow

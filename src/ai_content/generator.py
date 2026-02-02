@@ -1,3 +1,4 @@
+# src/ai_content/generator.py
 from .providers import PROVIDERS
 from .utils import log_action
 
@@ -16,3 +17,4 @@ def create_video(provider_name, duration=5):
     filename = f"{provider_name}_{provider['style']}_{duration}s.mp4"
     log_action(f"Generated video: {filename}")
     return filename
+
